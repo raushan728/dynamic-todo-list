@@ -12,8 +12,9 @@ A visually appealing to-do list application featuring a cosmic theme with animat
 - **Input Validation**: Prevents empty task submissions with user-friendly alerts
 - **Smooth Animations**: Hover effects and transitions for enhanced user interaction
 
-## Demo
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-blue?style=for-the-badge&logo=web&logoColor=white)](https://raushan728.github.io/dynamic-todo-list)
+## Quick Links
+
+📱 [Live Demo](https://raushan728.github.io/dynamic-todo-list) | 📂 [GitHub Repository](https://github.com/raushan728/dynamic-todo-list)
 
 ## Getting Started
 
@@ -21,7 +22,10 @@ A visually appealing to-do list application featuring a cosmic theme with animat
 - Any modern web browser (Chrome, Firefox, Safari, Edge)
 - No additional dependencies or installations required
 
-### Installation
+### Quick Start
+1. Simply open `index.html` in your web browser to start using the application immediately
+
+### Installation from GitHub
 1. Clone the repository:
    ```bash
    git clone https://github.com/raushan728/dynamic-todo-list.git
@@ -94,20 +98,12 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 
 **Raushan Kumar**
 
-<p align="left">
-  <a href="https://github.com/raushan728" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="https://twitter.com/Raushan_090" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
-  </a>
-  <a href="https://www.instagram.com/raushan_singh_29" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
-  </a>
-  <a href="mailto:raushansinghrajpoot687@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-</p>
+### Connect with me:
+
+📸 [Instagram](https://www.instagram.com/raushan_singh_29)  
+🐦 [Twitter](https://twitter.com/Raushan_090)  
+💻 [GitHub](https://github.com/raushan728)  
+📧 [Email](mailto:raushansinghrajpoot687@gmail.com)
 
 ## License
 
