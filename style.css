@@ -1,0 +1,121 @@
+/* Body background dark with stars falling */
+body {
+  margin: 0;
+  height: 100vh;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  overflow: hidden;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Title Glow Animation */
+.glow {
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+  margin: 20px 0;
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff3399;
+  }
+  to {
+    text-shadow: 0 0 20px #00ffff, 0 0 30px #3399ff, 0 0 40px #00ffcc;
+  }
+}
+
+/* Container */
+.container {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255,255,255,0.2);
+}
+
+/* Input + Button */
+input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  margin-left: 10px;
+  cursor: pointer;
+  background: #ff00cc;
+  color: white;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #ff3399;
+}
+
+/* Task List */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  padding: 10px;
+  margin: 5px 0;
+  background: rgba(255,255,255,0.1);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Delete Button */
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: darkred;
+}
+
+/* Falling Stars */
+.stars {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.stars::before, .stars::after {
+  content: '';
+  position: absolute;
+  top: -200px;
+  width: 200%;
+  height: 200%;
+  background: transparent url('https://www.transparenttextures.com/patterns/stardust.png') repeat;
+  animation: stars-fall 50s linear infinite;
+}
+
+.stars::after {
+  animation-delay: 25s;
+}
+
+@keyframes stars-fall {
+  from { transform: translateY(0); }
+  to { transform: translateY(1000px); }
+}
