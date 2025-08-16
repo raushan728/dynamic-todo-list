@@ -98,12 +98,36 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 
 **Raushan Kumar**
 
-### Connect with me:
+## Connect with Me  
 
-📸 [Instagram](https://www.instagram.com/raushan_singh_29)  
-🐦 [Twitter](https://twitter.com/Raushan_090)  
-💻 [GitHub](https://github.com/raushan728)  
-📧 [Email](mailto:raushansinghrajpoot687@gmail.com)
+<p align="left">
+  <!-- Instagram -->
+  <a href="https://www.instagram.com/raushan_singh_29" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" width="35" height="35"/>
+  </a>
+</p>
+
+<p align="left">
+  <!-- Twitter -->
+  <a href="https://twitter.com/Raushan_090" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" width="35" height="35"/>
+  </a>
+</p>
+
+<p align="left">
+  <!-- Email -->
+  <a href="mailto:raushansinghrajpoot687@gmail.com">
+    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="35" height="35"/>
+  </a>
+</p>
+
+<p align="left">
+  <!-- GitHub -->
+  <a href="https://github.com/raushan728" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111432.png" alt="GitHub" width="35" height="35"/>
+  </a>
+</p>
+
 
 ## License
 
